@@ -1,0 +1,893 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  scroll-behavior: smooth;
+}
+
+* a {
+  text-decoration: none;
+  color: blue;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  scroll-behavior: smooth;
+}
+
+* a:link {
+  text-decoration: none;
+}
+
+* h5 {
+  letter-spacing: 1px;
+  color: gray;
+}
+
+* ul {
+  list-style: none;
+}
+
+div.bkimg {
+  width: 100vw;
+  height: 1440px;
+  background-image: url(../img/portfolio_bg-01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
+}
+
+div.bkimg .header {
+  margin-bottom: 200px;
+}
+
+div.bkimg .header p.title1 {
+  background-color: #e0e0e0;
+  width: 18rem;
+  margin-top: 10px;
+  margin-left: 5rem;
+  padding: 5px 10px;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 0 0 1px black;
+  letter-spacing: 1px;
+}
+
+div.bkimg .header p.title2 {
+  background-color: #e0e0e0;
+  width: 22rem;
+  margin-left: 5rem;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 0 0 1px black;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+}
+
+div.bkimg .header hr {
+  margin: 2rem 5rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+div.bkimg .header a.nav1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: 2rem 10rem 2rem 5rem;
+}
+
+div.bkimg .header a.nav1:hover {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+div.bkimg .header a.nav2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: 2rem 10rem 2rem 5rem;
+}
+
+div.bkimg .header a.nav2:hover {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+div.bkimg .header a.nav3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin: 2rem 10rem 2rem 5rem;
+}
+
+div.bkimg .header a.nav3:hover {
+  color: black;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+div.bkimg div.mainAbout {
+  min-height: 90vh;
+  width: 80vw;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 1px white;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+
+div.bkimg div.mainAbout .mainleft {
+  display: inline-block;
+  width: 35%;
+}
+
+div.bkimg div.mainAbout .mainleft h5 {
+  color: blue;
+  margin: 0.8rem 0 0 5rem;
+}
+
+div.bkimg div.mainAbout .mainleft .picsMe {
+  width: 58%;
+  margin: 3rem 5rem 1rem 5rem;
+  border-radius: 5px;
+  border: solid 1px white;
+}
+
+div.bkimg div.mainAbout .mainleft .mName {
+  display: inline-block;
+  background-color: #ffffff;
+  margin: 0.5rem 5rem;
+  letter-spacing: 1px;
+}
+
+div.bkimg div.mainAbout .mainleft .Namehr {
+  background-color: #535353;
+  height: 1px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+div.bkimg div.mainAbout .mainleft .fa-behance-square {
+  font-size: 1.8rem;
+  margin: 20px 0 0 80px;
+}
+
+div.bkimg div.mainAbout .mainleft .fa-github-square {
+  font-size: 1.8rem;
+  margin: 20px 0 0 10px;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt ul {
+  margin: 20px 0 10px 80px;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt ul li {
+  display: block;
+  background-color: #fff;
+  width: 210px;
+  padding: 1px 5px;
+  text-align: left;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  color: #505050;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .listProgram .bar {
+  width: 100px;
+  height: 8px;
+  border: solid 1px rgba(0, 0, 255, 0.6);
+  border-radius: 5px;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .listProgram li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value {
+  height: 100%;
+  width: 60%;
+  background-color: rgba(0, 0, 255, 0.6);
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p10 {
+  width: 10%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p20 {
+  width: 20%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p30 {
+  width: 30%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p40 {
+  width: 40%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p50 {
+  width: 50%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p60 {
+  width: 60%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p70 {
+  width: 70%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p80 {
+  width: 80%;
+}
+
+div.bkimg div.mainAbout .mainleft .goodAt .value.p90 {
+  width: 90%;
+}
+
+div.bkimg div.mainAbout .mainRight {
+  width: 65%;
+  float: right;
+  margin: 3rem 0 0px 0;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe {
+  line-height: 1.5rem;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe h5 {
+  color: blue;
+  margin: 8px 0px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myExperience {
+  margin-bottom: 2rem;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table {
+  width: 90%;
+  letter-spacing: 1px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table thead th {
+  background-color: #fff;
+  padding: 0px 10px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trDate {
+  color: gray;
+  font-size: 10px;
+  text-align: center;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trtxt {
+  font-size: 0.8rem;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trtxt td {
+  padding: 0 15px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu {
+  margin-bottom: 2rem;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table {
+  width: 60%;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table thead tr {
+  background-color: #fff;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table thead tr th {
+  padding: 0 20px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table tbody .trDate {
+  color: gray;
+  font-size: 10px;
+  text-align: center;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table tbody .trtxt {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table tbody .trtxt td {
+  padding: 0 15px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .listSkill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .listSkill li {
+  font-size: 0.8rem;
+  width: 15%;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #505050;
+  letter-spacing: 0.8px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 255, 0.2);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .circle::after {
+  content: " ";
+  display: block;
+  background-color: #f7f7f7;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .p90,
+div.bkimg div.mainAbout .mainRight .aboutMe .p180,
+div.bkimg div.mainAbout .mainRight .aboutMe .p270,
+div.bkimg div.mainAbout .mainRight .aboutMe .p360 {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: rgba(0, 0, 255, 0.6);
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .p180 {
+  top: 50%;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .p270 {
+  left: 0;
+  top: 50%;
+}
+
+div.bkimg div.mainAbout .mainRight .aboutMe .p360 {
+  left: 0;
+  top: 0;
+}
+
+div.bkimg .designWork {
+  height: 100vh;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+div.bkimg .designWork p.title1 {
+  width: 15rem;
+  margin: 8rem 5rem 0 0;
+  float: right;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0 0 1px black;
+  letter-spacing: 1.5px;
+  text-align: right;
+}
+
+div.bkimg .designWork .coding {
+  margin-top: 6rem;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+div.bkimg .designWork .coding h5 {
+  color: blue;
+  margin: 1rem 0px;
+}
+
+div.bkimg .designWork .coding figure.hoverImg {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+div.bkimg .designWork .coding figure.hoverImg img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+div.bkimg .designWork .coding figure.hoverImg i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+div.bkimg .designWork .coding figure.hoverImg a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.bkimg .designWork .coding figure.hoverImg:hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+div.bkimg .designWork .coding figure.hoverImg:hover i {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: all 400ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 400ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div.bkimg .designWork .coding figure.hoverImg.navy {
+  background-color: #2b3c4e;
+}
+
+div.bkimg .designWork .animate {
+  margin-top: 6rem;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+div.bkimg .designWork .animate h5 {
+  color: blue;
+  margin: 1rem 0px;
+}
+
+div.bkimg .designWork .animate figure.hoverImg {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+div.bkimg .designWork .animate figure.hoverImg img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+div.bkimg .designWork .animate figure.hoverImg i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+div.bkimg .designWork .animate figure.hoverImg a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.bkimg .designWork .animate figure.hoverImg:hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+div.bkimg .designWork .animate figure.hoverImg:hover i {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: all 400ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 400ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div.bkimg .designWork .animate figure.hoverImg.navy {
+  background-color: #2b3c4e;
+}
+
+div.bkimg .designWork .graphic {
+  margin-top: 4rem;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+
+div.bkimg .designWork .graphic h5 {
+  color: blue;
+  margin: 1rem 0px;
+}
+
+div.bkimg .designWork .graphic figure.hoverImg {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+div.bkimg .designWork .graphic figure.hoverImg img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+div.bkimg .designWork .graphic figure.hoverImg i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #000000;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #ffffff;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+div.bkimg .designWork .graphic figure.hoverImg a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.bkimg .designWork .graphic figure.hoverImg:hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+div.bkimg .designWork .graphic figure.hoverImg:hover i {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: all 400ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 400ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+div.bkimg .designWork .graphic figure.hoverImg.navy {
+  background-color: #2b3c4e;
+}
+
+div.bkimg .contact {
+  height: 80vh;
+  background-color: #f7f7f7;
+  width: 100%;
+  position: relative;
+  padding-top: 6rem;
+}
+
+div.bkimg .contact .box {
+  width: 40vw;
+  height: 20vh;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+div.bkimg .contact .box p.title1 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 1px black;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+div.bkimg .contact .box .email {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+div.bkimg .contact .box .email i {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  div.bkimg div.mainAbout {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 900px) {
+  div.bkimg div.mainAbout {
+    width: 90vw;
+    min-height: 90vh;
+  }
+  div.bkimg div.mainAbout .mainleft {
+    display: inline-block;
+    width: 35%;
+  }
+  div.bkimg div.mainAbout .mainleft h5 {
+    color: blue;
+    margin: 0.8rem 0 0 3rem;
+  }
+  div.bkimg div.mainAbout .mainleft .picsMe {
+    width: 58%;
+    margin: 3rem 5rem 1rem 3rem;
+  }
+  div.bkimg div.mainAbout .mainleft .mName {
+    margin: 0.5rem 3rem;
+  }
+  div.bkimg div.mainAbout .mainleft .Namehr {
+    background-color: #535353;
+    height: 1px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  div.bkimg div.mainAbout .mainleft .fa-behance-square {
+    font-size: 1.8rem;
+    margin: 20px 0 0 50px;
+  }
+  div.bkimg div.mainAbout .mainleft .fa-github-square {
+    font-size: 1.8rem;
+    margin: 20px 0 0 10px;
+  }
+  div.bkimg div.mainAbout .mainRight {
+    width: 65%;
+    float: right;
+    margin: 3rem 0 0px 0;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe {
+    line-height: 1.5rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe h5 {
+    color: blue;
+    margin: 8px 0px;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience {
+    margin-bottom: 2rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table {
+    width: 100%;
+    letter-spacing: 1px;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table {
+    width: 80%;
+  }
+  div.bkimg .designWork p.title1 {
+    width: 15rem;
+    margin: 8rem 8rem 0 0;
+  }
+  div.bkimg .designWork .coding {
+    margin-top: 6rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .designWork .animate {
+    margin-top: 6rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .designWork .graphic {
+    margin-top: 4rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  div.bkimg div.mainAbout {
+    width: 90vw;
+    height: 800px;
+  }
+  div.bkimg div.mainAbout .mainleft {
+    display: inline-block;
+    width: 35%;
+  }
+  div.bkimg div.mainAbout .mainleft h5 {
+    color: blue;
+    margin: 0.8rem 0 0 2rem;
+    font-size: 10px;
+  }
+  div.bkimg div.mainAbout .mainleft .picsMe {
+    width: 58%;
+    margin: 3rem 5rem 1rem 2rem;
+  }
+  div.bkimg div.mainAbout .mainleft .mName {
+    margin: 0.5rem 2rem;
+  }
+  div.bkimg div.mainAbout .mainleft .Namehr {
+    background-color: #535353;
+    height: 1px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  div.bkimg div.mainAbout .mainleft .fa-behance-square {
+    font-size: 1.8rem;
+    margin: 20px 0 0 30px;
+  }
+  div.bkimg div.mainAbout .mainleft .fa-github-square {
+    font-size: 1.8rem;
+    margin: 20px 0 0 10px;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt ul {
+    margin: 20px 0 10px 30px;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt ul li {
+    background-color: #fff;
+    width: 120px;
+    padding: 5px 5px;
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    color: #505050;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt .listProgram .bar {
+    width: 100px;
+    height: 8px;
+    border: solid 1px rgba(0, 0, 255, 0.6);
+    border-radius: 5px;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt .listProgram li {
+    display: block;
+  }
+  div.bkimg div.mainAbout .mainRight {
+    width: 65%;
+    float: right;
+    margin: 3rem 0 0px 0;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe {
+    line-height: 1.5rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe h5 {
+    color: blue;
+    margin: 8px 0px;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience {
+    margin-bottom: 2rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table {
+    width: 100%;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table thead th {
+    background-color: #fff;
+    padding: 0px 10px;
+    font-size: 0.9rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trDate {
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trtxt {
+    font-size: 0.8rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trtxt td {
+    padding: 0 10px;
+    line-height: 1.2rem;
+    color: #3e3e3e;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table {
+    width: 100%;
+  }
+  div.bkimg .designWork p.title1 {
+    width: 15rem;
+    margin: 8rem 8rem 0 0;
+  }
+  div.bkimg .designWork .coding {
+    margin-top: 6rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .designWork .animate {
+    margin-top: 6rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .designWork .graphic {
+    margin-top: 4rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
