@@ -2053,9 +2053,12 @@ div.bkimg .contact .box .email i {
 }
 
 @media (max-width: 700px) {
+  div.bkimg {
+    background-color: #f7f7f7;
+  }
   div.bkimg div.mainAbout {
     width: 90vw;
-    height: 800px;
+    height: 700px;
   }
   div.bkimg div.mainAbout .mainleft {
     display: inline-block;
@@ -2149,26 +2152,29 @@ div.bkimg .contact .box .email i {
   div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table {
     width: 100%;
   }
+  div.bkimg .designWork {
+    background-color: #f7f7f7;
+  }
   div.bkimg .designWork p.title1 {
     width: 15rem;
-    margin: 8rem 8rem 0 0;
+    margin: 3rem 4rem 0 0;
   }
   div.bkimg .designWork .coding {
-    margin-top: 6rem;
+    margin-top: 3rem;
     display: inline-block;
     text-align: center;
     width: 33%;
     margin-left: 5rem;
   }
   div.bkimg .designWork .animate {
-    margin-top: 6rem;
+    margin-top: 3rem;
     display: inline-block;
     text-align: center;
     width: 33%;
     margin-left: 5rem;
   }
   div.bkimg .designWork .graphic {
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: inline-block;
     text-align: center;
     width: 33%;
@@ -2273,6 +2279,9 @@ div.bkimg .contact .box .email i {
   div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table {
     width: 100%;
   }
+  div.bkimg div.mainAbout .mainRight .aboutMe .listSkill li {
+    display: block;
+  }
   div.bkimg .designWork p.title1 {
     width: 15rem;
     margin: 8rem 8rem 0 0;
@@ -2297,6 +2306,240 @@ div.bkimg .contact .box .email i {
     text-align: center;
     width: 33%;
     margin-left: 6rem;
+  }
+}
+
+@media (max-width: 414px) {
+  div.bkimg .header p.title1 {
+    width: 15rem;
+    font-size: 4rem;
+  }
+  div.bkimg .header p.title2 {
+    width: 18rem;
+    font-size: 4rem;
+  }
+  div.bkimg div.mainAbout {
+    width: 90vw;
+    height: 90vh;
+  }
+  div.bkimg div.mainAbout .mainleft {
+    display: inline-block;
+    width: 35%;
+  }
+  div.bkimg div.mainAbout .mainleft h5 {
+    color: blue;
+    margin: 0.8rem 0 0 2rem;
+    font-size: 8px;
+  }
+  div.bkimg div.mainAbout .mainleft .picsMe {
+    width: 58%;
+    margin: 3rem 5rem 1rem 1.5rem;
+  }
+  div.bkimg div.mainAbout .mainleft .mName {
+    margin: 0.5rem 1.5rem;
+    font-size: 8px;
+  }
+  div.bkimg div.mainAbout .mainleft .Namehr {
+    background-color: #535353;
+    height: 1px;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  div.bkimg div.mainAbout .mainleft .fa-behance-square {
+    font-size: 1.5rem;
+    margin: 15px 0 0 30px;
+  }
+  div.bkimg div.mainAbout .mainleft .fa-github-square {
+    font-size: 1.5rem;
+    margin: 15px 0 0 10px;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt ul {
+    margin: 20px 0 10px 15px;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt ul li {
+    background-color: #fff;
+    width: 100px;
+    padding: 5px 5px;
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 0.7rem;
+    color: #505050;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt .listProgram .bar {
+    width: 90px;
+    height: 8px;
+    border: solid 1px rgba(0, 0, 255, 0.6);
+    border-radius: 5px;
+  }
+  div.bkimg div.mainAbout .mainleft .goodAt .listProgram li {
+    display: block;
+  }
+  div.bkimg div.mainAbout .mainRight {
+    width: 65%;
+    float: right;
+    margin: 2rem 0 0px 0;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe {
+    line-height: 1.5rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe h5 {
+    color: blue;
+    margin: 2px 0px;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience {
+    margin-bottom: 2rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table {
+    width: 100%;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table thead th {
+    background-color: #fff;
+    padding: 0px 10px;
+    font-size: 0.5rem;
+    line-height: 0.8rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trDate {
+    color: gray;
+    font-size: 8px;
+    text-align: center;
+    line-height: 1rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trtxt {
+    font-size: 0.5rem;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myExperience table tbody .trtxt td {
+    padding: 0 10px;
+    line-height: 1rem;
+    color: #3e3e3e;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .myEdu table {
+    width: 100%;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .listSkill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .listSkill li {
+    font-size: 0.8rem;
+    width: 15%;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #505050;
+    letter-spacing: 0.8px;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.2);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .circle::after {
+    content: " ";
+    display: block;
+    background-color: #f7f7f7;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .p90,
+  div.bkimg div.mainAbout .mainRight .aboutMe .p180,
+  div.bkimg div.mainAbout .mainRight .aboutMe .p270,
+  div.bkimg div.mainAbout .mainRight .aboutMe .p360 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-color: rgba(0, 0, 255, 0.6);
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .p180 {
+    top: 50%;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .p270 {
+    left: 0;
+    top: 50%;
+  }
+  div.bkimg div.mainAbout .mainRight .aboutMe .p360 {
+    left: 0;
+    top: 0;
+  }
+  div.bkimg .designWork p.title1 {
+    width: 10rem;
+    margin: 2rem 11rem 0 0;
+    font-size: 2rem;
+  }
+  div.bkimg .designWork .coding {
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .designWork .animate {
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .designWork .graphic {
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-left: 5rem;
+  }
+  div.bkimg .contact {
+    height: 80vh;
+    background-color: #f7f7f7;
+    width: 100%;
+    position: relative;
+  }
+  div.bkimg .contact .box {
+    width: 50vw;
+    height: 38vh;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+  div.bkimg .contact .box p.title1 {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 1px black;
+    letter-spacing: 1.5px;
+    text-align: center;
+  }
+  div.bkimg .contact .box .email {
+    text-align: center;
+    margin-top: 1.8rem;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  div.bkimg .contact .box .email i {
+    margin-right: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
